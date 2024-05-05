@@ -1,6 +1,13 @@
 {
   "hosting": {
     "public": "build/web",
+    "rewrites": [ {
+      "source": "/hello-world",
+      "run": {
+        "serviceId": "hello-world",
+        "region": "asia-northeast1"
+      }
+    } ],
     "ignore": [
       "firebase.json",
       "**/.*",
