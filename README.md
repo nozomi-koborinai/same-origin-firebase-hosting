@@ -1,1 +1,1 @@
-# Firebase Hosting Same Origin# same-origin-firebase-hosting
+# same-origin-firebase-hosting
